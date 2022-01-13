@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGproject", "SGproject\SGproject.csproj", "{A56D600D-7EF9-48D6-B735-78348B7E9BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{14F2ED20-0235-4FDC-9965-05F60C55385D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{2B4C33AE-7145-4E84-AFFC-719E4780726A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56D600D-7EF9-48D6-B735-78348B7E9BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56D600D-7EF9-48D6-B735-78348B7E9BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56D600D-7EF9-48D6-B735-78348B7E9BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56D600D-7EF9-48D6-B735-78348B7E9BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F2ED20-0235-4FDC-9965-05F60C55385D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F2ED20-0235-4FDC-9965-05F60C55385D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F2ED20-0235-4FDC-9965-05F60C55385D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F2ED20-0235-4FDC-9965-05F60C55385D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4C33AE-7145-4E84-AFFC-719E4780726A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4C33AE-7145-4E84-AFFC-719E4780726A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4C33AE-7145-4E84-AFFC-719E4780726A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4C33AE-7145-4E84-AFFC-719E4780726A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82271AC7-84CC-44B6-8A75-9907BE26EF17}
+	EndGlobalSection
+EndGlobal
