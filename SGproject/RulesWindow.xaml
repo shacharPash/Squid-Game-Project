@@ -1,0 +1,26 @@
+﻿<Window x:Class="SGproject.RulesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SGproject"
+        mc:Ignorable="d"
+        Title="RulesWindow" WindowStartupLocation="CenterScreen" Height="600" Width="800">
+    <Grid Background="Black">
+        <Image HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" Source = "C:\Users\spash\Desktop\לוחמים להייטקס\SGproject\SGproject\images\SquidGameLogo.png"></Image>
+        <TextBlock FontSize="25" FontFamily="MV Boli" Foreground="DimGray" HorizontalAlignment="Center" TextAlignment="Center"><LineBreak/><LineBreak/> <Bold> Welcome to Squid Game, This is the rules:</Bold>
+            <LineBreak/>1) A player is not allowed to voluntarily quit the games.
+            <LineBreak/>2) A player who refuses to play will be disqualified.
+            <LineBreak/>3) The games may be terminated upon a majority vote.
+            <LineBreak/><LineBreak/><Bold>In this game session you need to gain as much coins as you can.</Bold>
+            <LineBreak/>Circle coin worth 1 point.
+            <LineBreak/>triangular coin worth 3 point.
+            <LineBreak/>Star coin worth 5 point.
+            <LineBreak/>Umbrella coin worth 7 point.
+            <LineBreak/>You can press J to jump to random place.
+            <LineBreak/>If you will touch the One of the guards - you lose.
+           
+        </TextBlock>
+        
+    </Grid>
+</Window>

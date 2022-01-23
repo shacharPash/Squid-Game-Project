@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Models
@@ -14,6 +9,13 @@ namespace Models
         public Model() => body = new Rectangle();
         public int speed { get; set; }
         public Rectangle body { get; set; }
+
+        public virtual Rect GetRect(int r = 0)
+        {
+            return new Rect(Canvas.GetLeft(body) - r, Canvas.GetTop(body) - r, body.Width + r, body.Height + r);
+        }
+
+
         //public ImageBrush image { get; set; }
     }
 }

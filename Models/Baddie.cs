@@ -1,13 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Media;
 
 namespace Models
 {
     public class Baddie: Model
     {
+        public Baddie()
+        {
+            body.Tag = "bad";
+            body.Width = 50;
+            body.Height = 50;
+            body.Fill = Brushes.Red;
+        }
         public int xDitection { get; set; }
         public int yDitection { get; set; }
     }

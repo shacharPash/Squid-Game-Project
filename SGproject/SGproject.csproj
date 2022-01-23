@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RulesWindow.xaml.cs">
+      <DependentUpon>RulesWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,8 +71,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="openingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RulesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="openingWindow.xaml.cs">
+      <DependentUpon>openingWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -85,6 +100,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -99,6 +115,43 @@
       <Project>{14f2ed20-0235-4fdc-9965-05f60c55385d}</Project>
       <Name>Logic</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Background2.jpg" />
+    <Resource Include="images\Background3.jpg" />
+    <Resource Include="images\bad0.png" />
+    <Resource Include="images\Bad0o.png" />
+    <Resource Include="images\bad3.png" />
+    <Resource Include="images\bad3o.png" />
+    <Resource Include="images\Bad4o.png" />
+    <Resource Include="images\badGirl.png" />
+    <Resource Include="images\Coin0.png" />
+    <Resource Include="images\Coin3.png" />
+    <Resource Include="images\Coin5.png" />
+    <Resource Include="images\CoinUmbrella.png" />
+    <Resource Include="images\mostBad.png" />
+    <Resource Include="images\openingBackground.jpg" />
+    <Resource Include="images\openingBackground2.jpg" />
+    <Resource Include="images\player456.png" />
+    <Resource Include="images\player456JustHead.png" />
+    <Resource Include="images\player456NoBackgroung.png" />
+    <Resource Include="images\sgBackground.jpg" />
+    <Resource Include="images\SquidGameLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sounds\BadGirlSound.wav" />
+    <Content Include="sounds\badGirlSound2.wav" />
+    <Content Include="sounds\CoinCollect2.wav" />
+    <Content Include="sounds\CrowdLoseSound2.wav" />
+    <Content Include="sounds\CrowdWinSound.wav" />
+    <Content Include="sounds\dramaticOpeningSound.wav" />
+    <Content Include="sounds\fluteGameSound.wav" />
+    <Content Include="sounds\fluteGameSound2.wav" />
+    <Content Include="sounds\gunShot.wav" />
+    <Content Include="sounds\Pink Soldiers.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
